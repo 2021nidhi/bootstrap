@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background: conic-gradient(rgb(232, 232, 91),orange,rgb(232, 232, 91));
+        }
+        form{
+            width: 50%;
+            margin: auto;
+            border: 2px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <!-- heading -->
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Registration form</h1>
+            </div>
+        </div>
+        <!-- first name -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="">First name :</label>
+            </div>
+            <div class="col-8">
+                <input type="text" class="form-control" placeholder="Enter name">
+            </div>
+        </div>
+        <!-- password -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="">password :</label>
+            </div>
+            <div class="col-8">
+                <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+        </div>
+        <!-- show password -->
+        <div class="row py-1">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">Show password
+                </div>
+            </div>
+        </div>
+        <!-- DOB -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="">Date of birth :</label>
+            </div>
+            <div class="col-8">
+                <input type="date" class="form-control" >
+            </div>
+        </div>
+        <!-- gender -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="">Gender :</label>
+            </div>
+            <div class="col-8">
+                <input type="radio" name="gen" class="form-check-input">
+                <label for="">Male</label>
+                <input type="radio" name="gen" class="form-check-input">
+                <label for="">Female</label>
+            </div>
+        </div>
+        <!-- address -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="">Address :</label>
+            </div>
+            <div class="col-8">
+                <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Enter address"></textarea>
+            </div>
+        </div>
+        <!-- city -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="form-lable">City :</label>
+            </div>
+            <div class="col-8">
+                <select name="" id="" class="form-select">
+                    <option value="">----select----</option>
+                    <option value="">surat</option>
+                    <option value="">vadodara</option>
+                </select>
+            </div>
+        </div>
+        <!-- email -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <label for="" class="form-lable">Email :</label>
+            </div>
+            <div class="col-8">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter username">
+                    <label for="" class="input-group-text">@gmail.com</label>
+                </div>
+            </div>
+        </div>
+        <!-- button -->
+        <div class="row py-1">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+            </div>
+            <div class="col-8">
+                <button class="btn btn-success">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
