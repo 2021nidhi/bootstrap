@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.loginpage{
+    height: 600px;
+    width: 400px;
+    border-radius: 30px !important;   
+    background-color: #efececc4;
+}
+
+.loginpage .outline-icon{
+    height: 100px;
+    width: 100px;
+    padding-left: 2px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-right: 2px !important;
+
+}
+
+.loginpage .outline-icon .secoutl{
+    height: 96px;
+    width: 96px;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    padding-right: 6px !important;
+    padding-left: 6px !important;
+
+}
+
+.loginpage .outline-icon .twitter-icon{
+    height: 80px;
+    width: 80px;
+    /* padding-left: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;*/
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #efececc4;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: inherit;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: #efececc4;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: inherit;
+
+
+}
+
+button{
+    border-radius: 20px !important;
+    height: 50px !important;
+    /* width: 200px !important; */
+}
